@@ -1,0 +1,49 @@
+
+body { 
+    background-color: #FAF7FE;
+    font-family: "Poppins", sans-serif;
+} 
+.card {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.mini_card {
+    border: 2px solid rgb(226, 223, 223);
+    width: 300px;
+    background-color: white; 
+    border-radius: 10px; 
+}
+.content {
+    padding: 30px 15px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span {
+    font-size: 42px;
+    font-weight: bold;
+}
+p {
+    color: rgb(139, 137, 137);
+}
+span, a {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: #EDF0F4;
+    padding: 20px;
+}
+
+ul {
+    line-height: 40px;
+}
+
+
+
