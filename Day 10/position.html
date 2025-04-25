@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        .parent{
+            border: 14px solid red;
+            width: 600px;
+            position: relative;
+        }
+        .child {
+            height: 150px;
+            width: 150px;
+            border: 2px solid;
+            font-size: 2rem;
+            text-align: center;
+            align-content: center;
+        }
+        #static{
+            background-color: lightblue;
+            margin-top: 4rem;
+            position: static;
+        }
+       #relative {
+        position: relative;
+        background-color: aqua;
+        top: 3rem;
+       } 
+       #absolute {
+        position: absolute;
+        background-color: blue;
+        right: 0;
+       }
+       #fixed {
+        position: fixed;
+        right:0 ;
+       }
+       #sticky {
+        position: sticky;
+        top: 100px;
+       }
+    </style>
+</head>
+<body>
+    
+    <!-- Position Types: 
+    1.static (defaut)
+    2.relative (normal Position)
+    3.absolute (relative to the near parent)
+    4.fixed (scroll)
+    5.sticky (scroll) -->
+
+
+    <div class="parent">
+        <div class="child" id="static">static</div>
+        <div class="child" id="relative">relative</div>
+        <div class="child" id="absolute">absolute</div>
+        <div class="child" id="fixed">fixed</div>
+    </div>
+    <div class="child" id="sticky">sticky</div>
+
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt animi blanditiis. Delectus fuga similique nulla accusamus sit illum eveniet tempore, odit optio reprehenderit? Repellat, iusto! Ratione non nulla iste!
+
+    </p>
+
+
+
+
+</body>
+</html>
