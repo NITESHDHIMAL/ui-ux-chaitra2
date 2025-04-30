@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        .solar{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sun {
+            height: 150px;
+            width: 150px;
+            background-color: rgb(138, 138, 38);
+            border-radius: 50%;
+            box-shadow: 0px 0px 20px 20px rgb(126, 13, 13);
+       
+            /* transition: all 2s; */
+            /* transition: all 2s ease; */
+            /* transition: all 2s 2s ease; */
+
+            /* transition-property: height; */
+            /* transition-property: all;
+            transition-duration: 2s;
+            transition-delay: 2s;  */
+            /* transition-timing-function: cubic-bezier(1,-0.92, 0, 1.16) ; */
+            /* transition-timing-function: ease ; */
+            /* transition-timing-function: ease-in; */
+            /* transition-timing-function: ease-in-out; */
+            /* transition-timing-function: ease-out; */ 
+        }
+        .sun:hover {
+            height: 150px;
+            width: 150px;
+            background-color: rgb(164, 162, 162);
+            border-radius: 50%;
+            box-shadow: 0px 0px 20px 20px gray;
+            cursor: pointer;
+        } 
+    </style>
+</head>
+
+<body>
+    <div class="solar">
+        <div class="sun"></div>
+    </div>
+</body>
+
+</html>
