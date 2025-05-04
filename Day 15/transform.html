@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <style>
+        .box, .minibox {
+            height: 150px;
+            width: 150px;
+            background-color: red;
+        }
+        .minibox { 
+            background-color: green;
+
+            
+        }
+        .minibox:hover{
+            /* transform: rotate( 360deg ); */
+            /* transform: rotatex( 360deg ); */
+            /* transform: rotatey( 360deg ); */
+            cursor: pointer;
+
+
+            /* transform: scale(2); */
+            /* transform: scalex(2); */
+            /* transform: scaley(2); */
+
+            /* transform: skew(60deg); */
+            /* transform: skewx(60deg); */
+            /* transform: skewy(60deg); */
+
+            /* transform: translate(x, y); */
+            /* transform: translate(200px, 200px); */
+            /* transform: translatex(200px); */
+            transform: translatey(200px);
+
+            transition: all 2s;
+
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <div class="box">
+        <div class="minibox"></div>
+    </div>
+
+
+
+
+    
+</body>
+</html>
